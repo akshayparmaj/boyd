@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: test_prod
+    database: DBT_AKSHAY
+    schema: BOYD_GAMING
+    tables:
+      - name: store_2023
+      - name: store_sales_2023
